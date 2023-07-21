@@ -1,0 +1,9 @@
+# O que é uma interrupção?
+# - Trata-se de uma quebra do ciclo esperado de execução para atender solicitações de outros dispositivos.
+# Como occore?
+# - São gerados sinais por outros dispositivos que indicam a necessidade de atendimento,
+    # que por sua vez são detectados em ciclos de busca, salvando o contexto atual e enfim 
+    # executando o processo sinalizado. Lembrando que tais processos ainda podem ter entre si 
+    # ordens de urgência dependendo do modelo aderido 
+# Por que é importante?
+# - Com a implementação de tal tratamento algumas das possíveis vantagens são o multitarefas do cumputador e  o tratamentos de excessões. 
